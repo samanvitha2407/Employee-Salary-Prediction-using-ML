@@ -1,0 +1,29 @@
+1. System/Technical Requirements
+| Requirement      | Description                                                           |
+| ---------------- | --------------------------------------------------------------------- |
+| **Google Colab** | Cloud-based development environment where you run all your code       |
+| **Python 3.x**   | Programming language used for ML, preprocessing, and visualization    |
+| **CSV Dataset**  | Input dataset (`employee_data.csv`) with employee profiles and salary |
+
+2. Python Libraries (Software Requirements)
+| Library                    | Purpose                                                             |
+| -------------------------- | ------------------------------------------------------------------- |
+| `pandas`                   | Load, clean, and manipulate tabular data                            |
+| `numpy`                    | Perform numerical operations                                        |
+| `scikit-learn`             | Preprocess data, build ML models, evaluate predictions              |
+| `matplotlib`               | Create visualizations (e.g., scatter plots for actual vs predicted) |
+| `joblib`                   | Save and load trained models                                        |
+| `streamlit`                | Build and deploy a simple web app interface                         |
+| `localtunnel` *(optional)* | Expose Streamlit app from Colab or local server via public URL      |
+
+3.Functional Requirements
+
+| Feature                     | Description                                                    |
+| --------------------------- | -------------------------------------------------------------- |
+| Data preprocessing          | Convert text labels to encoded formats; scale numerical values |
+| Model training              | Train a regression model to predict salary                     |
+| Model evaluation            | Measure accuracy using R² score, RMSE, or MAE                  |
+| Real-time salary prediction | Predict salary for new inputs after model is trained           |
+| Salary adjustment           | Modify dataset salaries to reflect Indian market               |
+                                                    
+
