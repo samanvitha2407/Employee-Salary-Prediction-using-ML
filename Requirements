@@ -14,7 +14,7 @@
 | `matplotlib`               | Create visualizations (e.g., scatter plots for actual vs predicted) |
 | `joblib`                   | Save and load trained models                                        |
 | `streamlit`                | Build and deploy a simple web app interface                         |
-| `localtunnel` *(optional)* | Expose Streamlit app from Colab or local server via public URL      |
+
 
 3.Functional Requirements
 
